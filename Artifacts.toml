@@ -17,6 +17,17 @@ os = "linux"
     [[onnxruntime_cpu.download]]
     sha256 = "2c7fdcfa8131b52167b1870747758cb24265952eba975318a67cc840c04ca73e"
     url = "https://github.com/microsoft/onnxruntime/releases/download/v1.13.1/onnxruntime-linux-x64-1.13.1.tgz"
+    
+[[onnxruntime_cpu]]
+arch = "aarch64"
+git-tree-sha1 = "b353e0b41d588605958b03f9a223d10a2fbeb514"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[onnxruntime_cpu.download]]
+    sha256 = "0c284b7355a807f499ff1967cfb40501cadf165a1a00fe304b97cffabbdc6add"
+    url = "https://github.com/microsoft/onnxruntime/releases/download/v1.13.1/onnxruntime-linux-aarch64-1.13.1.tgz"
 [[onnxruntime_cpu]]
 arch = "x86_64"
 git-tree-sha1 = "806a66b50f168d1982e7a9b87b54272a9e5f80a6"
